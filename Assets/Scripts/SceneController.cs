@@ -4,6 +4,7 @@ using Unity.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
@@ -107,5 +108,10 @@ public class SceneController : MonoBehaviour
         }
 
         return newArray;
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }
