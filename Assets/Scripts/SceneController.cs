@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using TMPro;
 
 public class SceneController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class SceneController : MonoBehaviour
     public const float offsetY = 2.5f;
 
     private int Score = 0;
+
+    [SerializeField] private TMP_Text scoreLabel;
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
@@ -74,7 +77,12 @@ public class SceneController : MonoBehaviour
         if (firstRevealed.Id == secondRevealed.Id)
         {
             Score++;
-            Debug.Log($"Score: {Score}");
+            if (Score == 4)
+            {
+                firstRevealed.PLaySoundFinishGame();
+            }
+            scoreLabel.text = $"Score: {Score}";
+            firstRevealed.PLaySound();
         }
         else
         {
