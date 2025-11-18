@@ -1,47 +1,35 @@
-# Memory-Game-DEMO
-# Memory Card Game Demo
+🎮 Unity Memory Game (Demo)
 
-🎮 **Memory Card Game** — a cross-platform mini-game developed in Unity.
+A small matching card game built in Unity to demonstrate my basic gameplay programming skills: card flipping, pair detection, UI flow, simple animations, and sound integration.
 
-## 📌 Description
-A simple card-matching game where the player flips two cards at a time to find matching pairs.  
-This project demonstrates:
-- Game logic implemented in C# and Unity
-- UI handling and user interaction
-- Sound effects integration
-- Cross-platform compatibility (Android, Windows, etc.)
+🔧 What I Did
 
-## 🛠 Technologies
-- Unity 6
-- C#
-- Git for version control
+Implemented full gameplay logic in C# (flip system, match checks, card states).
 
-## 📱 Platforms
-- Android (supports multiple screen resolutions)  
-- Windows / Unity Editor (playable on PC)
+Built SceneController to manage game flow and interactions.
 
-## 🎯 Project Goals
-- Practice creating small games in Unity
-- Implement interactive game mechanics
-- Build a professional portfolio for a Junior Unity Developer
+Created UI logic (buttons, restart, transitions).
 
-## 📂 Repository Structure
-- **Assets** — scenes, scripts, sprites, and sounds  
-- **ProjectSettings** — Unity project configuration  
-- **Packages** — Unity dependencies and packages  
+Integrated sound effects and simple animations.
 
-## ▶️ Demo / Screenshots
-![Screenshot 1](//Later)  
-![Screenshot 2](//Later)  
+Organized assets and project structure for readability.
 
-🎥 Watch gameplay video: [Memory Card Gameplay](//Later)
+Prepared Android build + tested different resolutions.
 
-> Tip: Replace the placeholder links above with your actual images and video.
+🎨 Assets & Audio
 
-## 📌 How to Run
-1. Clone the repository  
-2. Open the project in Unity 6+  
-3. Play directly in the editor or build for Android/PC  
+All sprites, UI graphics, and sounds are simple demo assets used for learning purposes (free/open-source).
+This project focuses on code & gameplay implementation, not final art.
 
-## ✨ Author
-[whysaint](https://github.com/whysaint)
+▶️ Preview
+
+Video:
+[https://youtu.be/0CgmzvfjQbE]
+
+📥 How to Run
+
+Clone → open in Unity 6+ → press Play or build for Android/PC.
+
+👤 Author
+
+whysa1nt — GitHub: https://github.com/whysaint
